@@ -1,0 +1,61 @@
+* {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #f2f2f2;
+  padding: 10px;
+}
+
+#cattyboard {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#cattyboard td {
+  border: #ddd;
+  padding: 8px;
+}
+
+#cattyboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#playAction {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div ul li {
+  float: left;
+}
+div ul li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li {
+  padding: 30px 0 30px 0;
+}
+nav {
+  background-color: #f2f2f2;
+}
+table {
+  border-collapse: collapse;
+}
+#top-right-sec {
+  width: 100%;
+  position: absolute;
+}
+#heading {
+  padding: 0 0 80px 10px;
+}
+td > a {
+  border-style: solid;
+}
